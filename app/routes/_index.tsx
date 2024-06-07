@@ -8,7 +8,7 @@ export const meta: MetaFunction = () => [{ title: "Remix Notes" }];
 export default function Index() {
   const user = useOptionalUser();
   return (
-    <main>
+    <main className="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center">
       <h1>Comming Soon</h1>
     </main>
   );
